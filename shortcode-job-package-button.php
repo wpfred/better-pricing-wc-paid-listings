@@ -1,6 +1,6 @@
 <?php
 
-/* Only works when setting "Choose a package before entering job details" is enabled */
+/* Only works when setting "Choose a package before entering job details" is enabled under Jobs => Settings => Job Submission */
 
 function wpfr_add_job_package_button ( $atts = array() ) { 
 
