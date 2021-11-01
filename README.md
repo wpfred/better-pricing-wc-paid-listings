@@ -2,7 +2,7 @@
 Boost your sales by building a custom pricing page and skip the not so pretty "Choose a Package" screen provided by WC Paid Listings.
 
 ## What does the plugin do?
-It creates a shortcode [job_package_button] which you can add to your custom pricing page or on any other page or post on your site. You must use the shortcode parameter "id" (= product_id) to specify which product you are referring to. The ``<button>`` then redirects your customer to step 2 of the job submission form skipping the "Choose a Package" screen provided by WC Paid Listings. By adding the product id as a parameter in the shortcode the product is already selected in the background.  
+It creates a shortcode [job_package_button] which you can add to your custom pricing page or on any other page or post on your site. You must use the shortcode attribute "id" (= product_id) to specify which product you are referring to. The ``<button>`` then redirects your customer to step 2 of the job submission form skipping the "Choose a Package" screen provided by WC Paid Listings. By adding the product id as a attributes in the shortcode the product is already selected in the background.  
 
 ## Why is this plugin helpful?
 WC Paid Listings is a great little plugin that adds a custom "Job Product" to WooCommerce and helps you and your customers manage their job packages easily. But it comes with a very limited frontend pricing template called "Choose a Package". There are no styling options and you cannot change the order of the products (default is order by product_id which does not make much sense). Every E-Commerce business needs a beautiful pricing page where all your products, features and prices are displayed. You can do that now with this simple plugin.
@@ -21,7 +21,7 @@ You can insert this shortcode on any post or page created on your site. There ar
 
 ## What options does the shortcode have?
 1. 'id' (=product_id). Example: [job_package_button id="35"].
-You must add an ID for the shortcode to work otherwise you will get a "Invalid package" error message when clicking the button.
+You must add an ID for the shortcode to work otherwise you might get a "Invalid package" error message when clicking the button.
 2. 'text' = The text displayed on the button. Default is "Book a job now". Example [job_package_button id="35" text="Book a Premium job listing now"].
 3. 'url' = The slug of your job submission page. Per default WP Job Manager creates a page /post-a-job. Only use this if you create a job submission page with a different slug. Example: [job_package_button id="35" url="/create-job-listing"]
 4. 'button_class' = CSS class for the ``<button>``. If you don't add a custom class here it will use your theme's default styling for buttons. Add your custom CSS to your child theme's style.css or use the Customizer. [job_package_button id="35" class="pricing-buttons"].
