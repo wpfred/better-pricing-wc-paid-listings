@@ -6,6 +6,7 @@
 * Version: 1.0
 * Author: wpfred.com
 * Author URI: https://wpfred.com/
+* License: GPLv2 or later
 **/
 
 include_once('shortcode-job-package-button.php');
