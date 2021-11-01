@@ -11,7 +11,7 @@ WC Paid Listings is a great little plugin that adds a custom "Job Product" to Wo
 This plugin adds functionality to the paid plugin WC Paid Listings which can only be used together with WP Job Manager and WooCommerce.
 
 ## How do I create my own pricing page for WC Paid Listings?
-You can insert this shortcode on any post or page created on your site. There are plenty of pricing templates out there for Gutenberg, Elementor, Visual COmposer or any other page builder. You can also use WooCommerce's Gutenberg blocks to display your products but instead of the "Add to Cart" button you can add a "Book a listing now" button that redirects to the job submission form. 
+You can insert this shortcode on any post or page created on your site. There are plenty of pricing templates out there for Gutenberg, Elementor, Visual COmposer or any other page builder. You can also use WooCommerce's product-related Gutenberg blocks to display your products but instead of the "Add to Cart" button you can add a "Book a listing now" button that redirects to the job submission form. 
 
 ## How do I use the shortcode [job_package_button]?
 1. Make sure you have installed and activated the three plugins WP Job Manager, WooCommerce and WC Paid Listings. 
