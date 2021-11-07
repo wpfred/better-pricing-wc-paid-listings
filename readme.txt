@@ -34,12 +34,12 @@ You can insert this shortcode on any post or page created on your site. There ar
 
 = What atrributes does the shortcode have? =
 
-1. 'id' (=product_id). Example: [job_package_button id="35"].
+1. `id` (=product_id). Example: `[job_package_button id="35"]`.
 You must add an ID for the shortcode to work otherwise you might get a "Invalid package" error message when clicking the button.
-2. 'text' = The text displayed on the button. Default is "Book a job now". Example [job_package_button id="35" text="Book a Premium job listing now"].
-3. 'url' = The slug of your job submission page. Per default WP Job Manager creates a page /post-a-job. Only use this if you create a job submission page with a different slug. Example: [job_package_button id="35" url="/create-job-listing"]
-4. 'button_class' = CSS class for the ``<button>``. If you don't add a custom class here it will use your theme's default styling for buttons. Add your custom CSS to your child theme's style.css or use the Customizer. [job_package_button id="35" class="pricing-buttons"].
-5. 'div_class' = Add a custom CSS class to the outer div wrapped around the ``<button>``.
+2. `text` = The text displayed on the button. Default is "Book a job now". Example `[job_package_button id="35" text="Book a Premium job listing now"]`.
+3. `url` = The slug of your job submission page. Per default WP Job Manager creates a page /post-a-job. Only use this if you create a job submission page with a different slug. Example: `[job_package_button id="35" url="/create-job-listing"]`
+4.`button_class` = CSS class for the ``<button>``. If you don't add a custom class here it will use your theme's default styling for buttons. Add your custom CSS to your child theme's style.css or use the Customizer. `[job_package_button id="35" button_class="pricing-buttons"]`.
+5. `div_class` = Add a custom CSS class to the outer div wrapped around the ``<button>``. Example: `[job_package_button id="35" div_class="pricing-area" button_class="pricing-buttons"]`
 
 
 = What other plugins are required for this plugin to work? =
