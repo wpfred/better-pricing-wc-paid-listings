@@ -20,7 +20,7 @@ You can insert this shortcode on any post or page created on your site. There ar
 4. Create a pricing page where you describe your job package product and add the shortcode. A "Book a listing now" button will appear which redirects your customers to step 2 of the job submission form with the respective job package pre-selected. You can add as many shortcodes on a single post or page as you like.
 
 ## What options does the shortcode have?
-1. 'id' (=product_id). Example: [job_package_button id="35"].
+1. `id` (=product_id). Example: [job_package_button id="35"].
 You must add an ID for the shortcode to work otherwise you might get a "Invalid package" error message when clicking the button.
 2. 'text' = The text displayed on the button. Default is "Book a job now". Example [job_package_button id="35" text="Book a Premium job listing now"].
 3. 'url' = The slug of your job submission page. Per default WP Job Manager creates a page /post-a-job. Only use this if you create a job submission page with a different slug. Example: [job_package_button id="35" url="/create-job-listing"]
