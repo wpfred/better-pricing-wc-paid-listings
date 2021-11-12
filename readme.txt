@@ -48,6 +48,6 @@ This plugin adds functionality to the paid plugin WC Paid Listings which can onl
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0 =
 * First version of plugin published. 
 
