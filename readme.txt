@@ -8,7 +8,7 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Boost your sales by building a custom pricing page and skip the not so pretty "Choose a Package" screen provided by WC Paid Listings.
+Boost your sales by building a custom pricing page and skip the limited "Choose a Package" screen provided by WC Paid Listings.
 
 == Description ==
 
