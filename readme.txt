@@ -51,7 +51,7 @@ This plugin adds functionality to the paid plugin WC Paid Listings which can onl
 
 = 1.0.1 =
 Added link to demo in readme-file
-Fixed: added trailing slash to url parameter
+Fixed: added trailing slash to default default url value
 
 = 1.0.0 =
 * First version of plugin published. 
