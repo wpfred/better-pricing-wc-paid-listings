@@ -3,7 +3,7 @@ Contributors: wpfred24
 Tags: job board, pricing, sales
 Requires at least: 4.7
 Tested up to: 5.8.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -21,7 +21,8 @@ WC Paid Listings is a great little plugin that adds a custom "Job Product" to Wo
 ## Where should I insert the shortcode?
 You can insert this shortcode on any post or page created on your site. There are plenty of pricing templates out there for Gutenberg, Elementor, Visual Composer or any other page builder. You can also use WooCommerce's product-related Gutenberg blocks to display your products but instead of the "Add to Cart" button you can add a "Book a listing now" button that redirects to the job submission form. 
 
- 
+## Can I see a demo? ##
+Sure, here you go: https://demo.wpfred.com/ 
 
 == Frequently Asked Questions ==
 
@@ -47,6 +48,10 @@ You must add an ID for the shortcode to work otherwise you might get a "Invalid 
 This plugin adds functionality to the paid plugin WC Paid Listings which can only be used together with WP Job Manager and WooCommerce.
 
 == Changelog ==
+
+= 1.0.1 =
+Added link to demo in readme-file
+Fixed: added trailing slash to url parameter
 
 = 1.0.0 =
 * First version of plugin published. 
