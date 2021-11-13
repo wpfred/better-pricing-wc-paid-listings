@@ -5,7 +5,7 @@ function wpfr_add_job_package_button ( $atts = array() ) {
     extract(shortcode_atts(array(
         'id' => '',
         'text' => 'Book a job now',
-        'url' => 'post-a-job',
+        'url' => '/post-a-job',
         'div_class' => '',
         'button_class' => ''
        ), $atts));
